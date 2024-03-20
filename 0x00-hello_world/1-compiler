@@ -1,19 +1,2 @@
 #!/bin/bash
-
-if [ -z "$CFILE" ]; then
-   echo "ERROR: Provide a c file name as an arg"
-   exit 1
-
-fi
-
-if [ ! -f "$CFILE" ]; then
-   echo "Error: File '$CFILE' does not exist."
-   exit 1
-
-fi
-
-file_base="${CFILE%.*}"
-
-gcc -c -o "$file_base.o" "$CFILE"
-
-echo "Compiled '$CFILE' to object file '$file_base.o'."
+gcc -c -o "$CFILE.o" "$CFILE"

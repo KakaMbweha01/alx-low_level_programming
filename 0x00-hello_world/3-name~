@@ -12,4 +12,4 @@ fi
 
 gcc "$CFILE" -o cisfun
 
-echo "Compiled '$CFILE' and creared 'cisfun' as executable."
+echo "Compiled '$CFILE' and created 'cisfun' as executable."
