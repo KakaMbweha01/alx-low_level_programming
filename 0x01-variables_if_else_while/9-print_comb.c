@@ -5,16 +5,26 @@
  * Description - Print possible combinations of single-digit numbers
  * Return - Always (Success)
  */
-int main()
+int main(void)
 {
-  for (int c = 0; c <= 9; c++)
+  int m = 0;
+
+
+  while (m < 10)
   {
-    for (int z = 0; z <= 9; z++)
+    int u = 0;
+
+    while (u < 10)
     {
-      putchar('0' + c);
-      putchar(z == 9 ? '\n' : ',');
-      putchar(z == 9 ? '\0' : ' ');
+      putchar(m + '0');
+    if (m != 9 || u != 9)
+    {
+      putchar(',');
+      putchar(' ');
     }
+    u++;
+   }
+    m++;
   }
   return (0);
 }

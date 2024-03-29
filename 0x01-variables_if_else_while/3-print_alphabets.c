@@ -5,10 +5,11 @@
  * Description - print alphabets in both lower and uppercase
  * Return - Always (Success)
  */
-int main (void)
+int main(void)
 {
   char lower = 'a';
   char upper = 'A';
+
   while (lower <= 'z')
   {
     putchar(lower);

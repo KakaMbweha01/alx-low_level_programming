@@ -5,11 +5,14 @@
  * Description - print single digits using putchar
  * Return - Always (Success)
  */
-int main()
+int main(void)
 {
-  for (int n = 0; n < 10; n++)
+  int z = 0;
+
+  while (z < 10)
   {
-    putchar('0' + n);
+    putchar(z + '0');
+    z++;
   }
   putchar('\n');
   return (0);

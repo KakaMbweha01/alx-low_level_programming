@@ -5,14 +5,20 @@
  * Description - print base 16 values in lowercase
  * Return - Always (Success)
  */
-int main()
+int main(void)
 {
-  for (int b = 0; b < 16; b++)
+  int b = 0;
+  int L = 10;
+
+  while (b < 10)
   {
-    if (b < 10)
-      putchar('0' + b);
-    else
-      putchar('a' + (b - 10));
+    putchar(b + '0');
+    b++;
+  }
+  while (L < 16)
+  {
+    putchar(L + 'a' - 10);
+    L++;
   }
   putchar('\n');
   return (0);

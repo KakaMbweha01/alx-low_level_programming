@@ -5,11 +5,15 @@
  * Description - print alphabets in reverse
  * Return - Always (Success)
  */
-int main()
+int main(void)
 {
-  for (char ch = 'z'; ch >= 'a'; ch--)
+  char ch = 'z';
+
+  while (ch >= 'a')
   {
     putchar(ch);
+    ch--;
   }
   putchar('\n');
   return (0);
+}

@@ -5,11 +5,14 @@
  * Description - Print single digit numbers
  * Return - Always (Success)
  */
-int main ()
+int main(void)
 {
-  for (int n = 0; n < 10; n++)
+  char n = '0';
+
+  while (n <= '9')
   {
-    printf("%d\n", n);
+    putchar(n);
+    n++;
   }
   return (0);
 }
