@@ -27,5 +27,6 @@ int main(void)
 		g++;
 		f = g + 1;
 	}
+	putchar('\n');
 	return (0);
 }

@@ -1,5 +1,5 @@
 #include <stdio.h>
-/*
+/**
  * main - Entry point
  *
  * Description: print base 16 values in lowercase

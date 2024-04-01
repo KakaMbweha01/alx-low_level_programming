@@ -1,5 +1,5 @@
 #include <stdio.h>
-/*
+/**
  * main - Entry point
  *
  * Description: Print possible combinations of single-digit numbers
@@ -26,5 +26,6 @@ int main(void)
 		}
 		m++;
 	}
+	putchar('\n');
 	return (0);
 }
