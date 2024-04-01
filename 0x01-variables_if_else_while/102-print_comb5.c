@@ -1,9 +1,9 @@
 #include <stdio.h>
 /**
  * main - Entry point
- * 
+ *
  * Description: Prints all the unique combinations of two two-digit numbers
- * numbers are separated by a space and a comma 
+ * numbers are separated by a space and a comma
  * digits are printed with leading zeros if necessary
  *
  * Return: Always 0 (Success)
