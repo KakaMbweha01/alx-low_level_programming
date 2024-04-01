@@ -1,9 +1,16 @@
 #include <stdlib.h>
 #include <time.h>
-/* more headers goes there */
+/** more headers goes there */
 #include <stdio.h>
 
-/* betty style doc for function main goes there */
+/** betty style doc for function main goes there */
+/**
+ * main - Entry point
+ *
+ * Description - checks whether a number is positive or negative
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 	int n;

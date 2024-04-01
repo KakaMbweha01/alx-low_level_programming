@@ -2,18 +2,19 @@
 /*
  * main - Entry point
  *
- * Description - print alphabets in reverse
- * Return - Always (Success)
+ * Description: print alphabets in reverse
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-  char ch = 'z';
+	char ch = 'z';
 
-  while (ch >= 'a')
-  {
-    putchar(ch);
-    ch--;
-  }
-  putchar('\n');
-  return (0);
+	while (ch >= 'a')
+	{
+		putchar(ch);
+		ch--;
+	}
+	putchar('\n');
+	return (0);
 }

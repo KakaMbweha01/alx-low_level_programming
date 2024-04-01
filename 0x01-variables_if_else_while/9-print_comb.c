@@ -2,29 +2,29 @@
 /*
  * main - Entry point
  *
- * Description - Print possible combinations of single-digit numbers
- * Return - Always (Success)
+ * Description: Print possible combinations of single-digit numbers
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-  int m = 0;
+	int m = 0;
 
+	while (m < 10)
+	{
+		int u = 0;
 
-  while (m < 10)
-  {
-    int u = 0;
-
-    while (u < 10)
-    {
-      putchar(m + '0');
-    if (m != 9 || u != 9)
-    {
-      putchar(',');
-      putchar(' ');
-    }
-    u++;
-   }
-    m++;
-  }
-  return (0);
+		while (u < 10)
+		{
+			putchar(m + '0');
+			if (m != 9 || u != 9)
+			{
+				putchar(',');
+				putchar(' ');
+			}
+			u++;
+		}
+		m++;
+	}
+	return (0);
 }
