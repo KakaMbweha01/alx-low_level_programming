@@ -11,14 +11,15 @@ int print_sign(int h)
 {
 	if (h > 0)
 	{
-		_putchar((char)"+");
+		_putchar("43");
 		return (1);
 	} else if (h == 0)
 	{
-		_putchar((char)"0");
+		_putchar("48");
 		return (0);
-	} else {
-		_putchar((char)"_");
+	} else
+	{
+		_putchar("45");
 		return (-1);
 	}
 }

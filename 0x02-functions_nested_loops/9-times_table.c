@@ -17,11 +17,11 @@ void times_table(void)
 		while (col <= 9)
 		{
 			int answer = row * col;
-			_putchar((char)"%d", answer);
+			_putchar("%d", answer);
 
 			if (col < 9)
 			{
-				_putchar(", ");
+				_putchar("39 32");
 			}
 			col++;
 		}
