@@ -1,14 +1,5 @@
 #include "main.h"
 /**
- * _putchar - prints a single char
- * @c: a single char.
- *
- * Description: Prints a char.
- *
- * Return: A char.
- */
-int _putchar(char c);
-/**
  * print_alphabet - prints the alphabets in lower case.
  *
  * Description: Prints the alphabets followed by  a new line
