@@ -27,10 +27,10 @@ void print_alphabet(void)
 		letter++;
 	}
 	_putchar('\n');
-	return (0);
+	return 0;
 }
 
-int_putchar(char c)
+int _putchar(char c)
 {
 	putchar(c);
 	return (c);
