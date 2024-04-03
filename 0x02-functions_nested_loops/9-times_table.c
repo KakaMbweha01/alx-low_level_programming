@@ -17,7 +17,7 @@ void times_table(void)
 		while (col <= 9)
 		{
 			int answer = row * col;
-			_putchar("%d", answer);
+			_putchar((char)"%d", answer);
 
 			if (col < 9)
 			{
@@ -25,7 +25,7 @@ void times_table(void)
 			}
 			col++;
 		}
-		_putchar("\n");
+		_putchar('\n');
 		row++;
 	}
 }

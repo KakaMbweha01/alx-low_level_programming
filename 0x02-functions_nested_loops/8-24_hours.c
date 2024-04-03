@@ -16,7 +16,7 @@ void jack_bauer(void)
 
 		while (minutes < 60)
 		{
-			_putchar("%02d:%02d\n", hours, minutes);
+			_putchar((char)"%02d:%02d\n", hours, minutes);
 			minutes++;
 		}
 		hours++;
