@@ -7,11 +7,7 @@
  *
  * Return: A char.
  */
-int _putchar(char c)
-{
-	putchar(c);
-	return (c);
-}
+int _putchar(char c);
 /**
  * print_alphabet - prints the alphabets in lower case.
  *
@@ -20,14 +16,22 @@ int _putchar(char c)
  * Return: Alphabets in lowercase.
  */
 void print_alphabet(void);
+
+void print_alphabet(void)
 {
 	char letter = 'a';
 
-	while(letter <= 'z')
+	while (letter <= 'z')
 	{
 		_putchar(letter);
-		letter ++;
+		letter++;
 	}
 	_putchar('\n');
 	return (0);
+}
+
+int_putchar(char c)
+{
+	putchar(c);
+	return (c);
 }
