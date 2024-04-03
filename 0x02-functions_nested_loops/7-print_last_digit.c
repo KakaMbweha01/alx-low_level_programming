@@ -1,18 +1,5 @@
 #include "main.h"
 /**
- * _putchar - accepts a single char
- * @c: a single char
- *
- * Description: Prints a single char.
- *
- * Return: returns a char.
- */
-int _putchar(char c)
-{
-	putchar(c);
-	return (c);
-}
-/**
  * print_last_digit - prints the last digit in a number.
  * @y: accepts an int.
  *
@@ -23,5 +10,5 @@ int _putchar(char c)
 int print_last_digit(int y)
 {
 	int last = y % 10;
-	return last;
+	return (last);
 }

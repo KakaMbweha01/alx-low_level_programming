@@ -1,18 +1,5 @@
 #include "main.h"
 /**
- * _putchar - prints a single char.
- * @c: accepts a single char.
- *
- * Description: print a char.
- *
- * Return: a char.
- */
-int _putchar(char c)
-{
-	putchar(c);
-	return (c);
-}
-/**
  * times_table - creates a multiplication table from 0-9.
  *
  * Description: prints the 9 timestable.

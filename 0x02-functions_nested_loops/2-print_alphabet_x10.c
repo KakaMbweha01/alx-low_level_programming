@@ -1,18 +1,5 @@
 #include "main.h"
 /**
- * _putchar - prints a single char.
- * @c: char to be printed.
- *
- * Description: Prints a single char.
- *
- * Return: a char.
- */
-int _putchar(char c);
-{
-	putchar(c);
-	return (c);
-}
-/**
  * print_alphabet_x10 - prints lowercase alphabets.
  *
  * Description: Prints 10 tmes the alphabets.
@@ -29,7 +16,7 @@ void print_alphabet_x10(void);
 		while(letter <= 'z')
 		{
 		_putchar(letter);
-		letter ++;
+		letter++;
 		}
 		letter = 'a';
 		repetitions++;

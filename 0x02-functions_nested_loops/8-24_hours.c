@@ -1,18 +1,5 @@
 #include "main.h"
 /**
- * _putchar - accepts a single char.
- * @c: Accepts a char.
- *
- * Description: prints a char.
- *
- * Return: A char.
- */
-int _putchar(char c)
-{
-	putchar(c);
-	return (c);
-}
-/**
  * jack_bauer - print every minute.
  *
  * Description: Prints every minute of the day.
