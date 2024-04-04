@@ -1,4 +1,18 @@
 #include "main.h"
+#include <stdio.h>
+/**
+ * print_time - prints time.
+ * @hours: prints hours.
+ * @minutes: prints minutes.
+ *
+ * Description: Prints the time.
+ *
+ * Return: prints time in format.
+ */
+void print_time(int hours, int minutes)
+{
+	printf("%02d:%02d\n", hours, minutes);
+}
 /**
  * jack_bauer - print every minute.
  *
@@ -16,7 +30,7 @@ void jack_bauer(void)
 
 		while (minutes < 60)
 		{
-			_putchar("%02d:%02d\n", hours, minutes);
+			print_time(hours, minutes);
 			minutes++;
 		}
 		hours++;
