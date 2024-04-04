@@ -12,16 +12,16 @@ int main(void)
 	int num0 = 1;
 	int num1= 2;
 	int nextTerm;
-
-	printf("%d, %d, ", num0, num1);
 	int counter = 2;
 	
-	while (counter < n)
+	printf("%d, %d, ", num0, num1);
+	
+	while (counter < k)
 	{
 		nextTerm = num0 + num1;
 		printf("%d", nextTerm);
 	
-		if (counter != n - 1)
+		if (counter != k - 1)
 		{
 			printf(", ");
 		}

@@ -12,17 +12,16 @@ int main(void)
 	unsigned int num0 = 1;
 	unsigned int num1 = 2;
 	unsigned int nextTerm;
-
-	printf("%u, %u, ", num0, num1);
-
 	int counter = 2;
-
+	
+	printf("%u, %u, ", num0, num1);
+	
 	while (counter < m)
 	{
 		nextTerm = num0 + num1;
 		printf("%u", nextTerm);
 
-		if (counter != n - 1)
+		if (counter != m - 1)
 		{
 			printf(", ");
 		}

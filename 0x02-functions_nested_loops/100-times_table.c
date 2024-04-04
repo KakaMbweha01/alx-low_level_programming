@@ -7,8 +7,10 @@
  *
  * Return: the times table for int n.
  */
-void print_time_tables(int k)
+void print_times_table(int k)
 {
+	int h = 0;
+	int j = 0;
 	if (k < 0 || k > 15)
 	{
 		return;
@@ -17,8 +19,6 @@ void print_time_tables(int k)
 	
 	while (j <= 12)
 	{
-		int h = 0;
-
 		while (h <= k)
 		{
 			printf("%4d", j * h);
@@ -43,6 +43,6 @@ void print_time_tables(int k)
  */
 	int main(void)
 	{
-		print_time_tables(k);
+		print_times_table();
 		return 0;
 	}
