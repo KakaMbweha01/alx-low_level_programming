@@ -7,7 +7,7 @@
  *
  * Return: the times table for int n.
  */
-void print_time_tables(int n)
+void print_time_tables(int k)
 {
 	if (k < 0 || k > 15)
 	{
@@ -45,6 +45,6 @@ void print_time_tables(int n)
 	int main(void)
 	{
 		int k = 10;
-		print_times_table(n);
+		print_times_table(k);
 		return;
 	}

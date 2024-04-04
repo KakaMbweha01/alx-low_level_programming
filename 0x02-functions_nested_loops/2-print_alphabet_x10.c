@@ -18,8 +18,8 @@ void print_alphabet_x10(void)
 		_putchar(letter);
 		letter++;
 		}
-		repetitions++;
 		letter = 'a';
-		
+		_putchar('\n');
+		repetitions++;
 	}
 }

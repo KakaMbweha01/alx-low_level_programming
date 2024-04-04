@@ -31,5 +31,5 @@ int main(void)
 {
 	int startNumber = 5;
 	print_to_98(startNumber);
-	return;
+	return (0);
 }
