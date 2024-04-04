@@ -18,14 +18,14 @@ int print_sign(int h)
 	} else if (h == 0)
 	{
 		_putchar('0');
-		_putachar(',');
+		_putchar(',');
 		_putchar(' ');
 		return (0);
 	} else
 	{
 		_putchar('-');
 		_putchar(',');
-		_putcahr(' ');
+		_putchar(' ');
 		return (-1);
 	}
 }

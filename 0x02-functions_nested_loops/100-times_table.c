@@ -13,7 +13,6 @@ void print_time_tables(int k)
 	{
 		return;
 	}
-
 	int j = 0;
 	
 	while (j <= 12)
@@ -40,11 +39,10 @@ void print_time_tables(int k)
  * 
  * Description: uses prints time table.
  *
- * Return: An times table.
+ * Return: A times table.
  */
 	int main(void)
 	{
-		int k = 10;
-		print_times_table(k);
-		return;
+		print_time_tables(k);
+		return 0;
 	}

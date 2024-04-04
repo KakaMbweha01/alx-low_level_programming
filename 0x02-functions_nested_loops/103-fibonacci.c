@@ -2,7 +2,7 @@
 /**
  * main - Entry Point
  *
- * Description: prints sum of even fib 
+ * Description: prints sum of even fib
  *
  * Return: Always 0 (Success)
  */
@@ -25,5 +25,5 @@ int main(void)
 		num1 = nextTerm;
 	}
 	printf("%d\n", sum_even);
-	return 0;
+	return (0);
 }

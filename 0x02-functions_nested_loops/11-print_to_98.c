@@ -28,8 +28,7 @@ void print_to_98(int n)
  * Return: Always 0 (Success)
  */
 int main(void)
-{
-	int startNumber = 5;
+{	
 	print_to_98(startNumber);
 	return (0);
 }

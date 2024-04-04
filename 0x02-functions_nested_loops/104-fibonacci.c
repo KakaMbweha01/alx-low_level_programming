@@ -9,18 +9,18 @@
 int main(void)
 {
 	int m = 98;
-	unsigned long long num0 = 1;
-	unsigned long long num1 = 2;
-	unsigned long long nextTerm;
+	unsigned int num0 = 1;
+	unsigned int num1 = 2;
+	unsigned int nextTerm;
 
-	printf("%llu, %llu, ", num0, num1);
+	printf("%u, %u, ", num0, num1);
 
 	int counter = 2;
 
 	while (counter < m)
 	{
 		nextTerm = num0 + num1;
-		printf("%llu", nextTerm);
+		printf("%u", nextTerm);
 
 		if (counter != n - 1)
 		{
