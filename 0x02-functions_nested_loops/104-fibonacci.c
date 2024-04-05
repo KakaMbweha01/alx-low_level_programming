@@ -13,9 +13,9 @@ int main(void)
 	unsigned int num1 = 2;
 	unsigned int nextTerm;
 	int counter = 2;
-	
+
 	printf("%u, %u, ", num0, num1);
-	
+
 	while (counter < m)
 	{
 		nextTerm = num0 + num1;
