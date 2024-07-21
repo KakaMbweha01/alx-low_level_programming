@@ -14,8 +14,11 @@ void print_triangle(int size)
 	{
 		for (int g = 0; g < size; g++)
 		{
-			_putchar('#');
-		}
+			for (int h =0; h < size; h++)
+			{
+				_putchar('#');
+			}
 		_putchar('\n');
+		}
 	}
 }
