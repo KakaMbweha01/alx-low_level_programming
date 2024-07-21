@@ -7,12 +7,5 @@
  */
 int mul(int c, int d)
 {
-	int answer = 0;
-
-	while (b > 0)
-	{
-		answer += a;
-		b--;
-	}
-	return answer;
+	return c * d;
 }

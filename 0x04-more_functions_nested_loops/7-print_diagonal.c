@@ -1,10 +1,10 @@
 #include "main.h"
 /**
  * print_diagonal - produce a diagonal
- * @p: accepts the number of \\
+ * @n: accepts the number of \\
  * Return: Always \ 
  */
-void print_diagonal(int p)
+void print_diagonal(int n)
 {
 	if (p <= 0)
 	{
@@ -12,15 +12,9 @@ void print_diagonal(int p)
 	}
 	else
 	{
-		int sapced;
-		for (spaced = 0; spaced < p; spaced++)
-		{
-			for (int h = 0; h < spaced; h++)
-			{
-				_putchar(' ');
-			}
-			_putchar('\\');
-			_putchar('\n');
+		for (int k = 0; k < n; k++) {
+			_putchar('_');
 		}
+		_putchar('\n');
 	}
 }

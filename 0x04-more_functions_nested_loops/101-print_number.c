@@ -12,16 +12,14 @@ void print_number(int n)
 		n = -n;
 	}
 	int divisor = 1;
-
-	while (n / divisorb >= 10)
+	while (n / divisor >= 10)
 	{
 		divisor *= 10;
 	}
-	while (divisor > 0)
+	while (divisor != 0)
 	{
-		int digit = n / divisor;
-		_putchar(digit + '0');
-		n %= divisor;
+		_putchar((n / divisor) % 10 + '0');
 		divisor /= 10;
 	}
 }
+

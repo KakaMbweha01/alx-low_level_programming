@@ -5,26 +5,28 @@
  * @h: acccept a prime factor
  * Return: largest prime factor
  */
-long long int largest_prime(long long int h)
+int main()
 {
-	long long int largest_factor = -1;
-	while (h % 2 == 0)
+	long long number = 612852475143;
+	long long largest_prime_factor = -1;
+	
+	while (number % 2 == 0)
 	{
-		largest_factor = 2;
-		h /= 2;
+		largest_prime_factor = 2;
+		number /= 2;
 	}
-	for (long long int i = 3; i <= sqrt(n); i+=2)
+	for (int i = 3; i <= sqrt(number); i += 2)
 	{
-		while (n % i == 0)
+		while (number % i == 0)
 		{
-			largest_factor = i;
-			n /= i;
+			largest_prime_factor = i;
+			number = number / i;
 		}
 	}
-	if (n > 2)
+	if (number > 2)
 	{
-		largest_factor = n;
+		largest_prime_factor = number;
 	}
-	return largest_factor;
-}
+	_putchar(largest_prime_factor);
+	_putchar('\n');
 	
