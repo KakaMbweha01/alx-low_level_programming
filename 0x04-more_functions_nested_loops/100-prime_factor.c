@@ -5,11 +5,11 @@
  * @h: acccept a prime factor
  * Return: largest prime factor
  */
-int main()
+int main(void)
 {
 	long long number = 612852475143;
 	long long largest_prime_factor = -1;
-	
+
 	while (number % 2 == 0)
 	{
 		largest_prime_factor = 2;

@@ -4,7 +4,8 @@
  * @n: accepts args
  * Return: FizzBuzz
  */
-void print_fizzbuzz(int n) {
+void print_fizzbuzz(int n)
+{
 	if (n % 3 == 0 && n % 5 == 0)
 	{
 		_putchar('F');
@@ -36,7 +37,7 @@ void print_fizzbuzz(int n) {
 	}
 }
 
-int main()
+int main(void)
 {
 	for (int i = 1; i <= 100; ++i)
 	{
@@ -47,6 +48,6 @@ int main()
 		}
 	}
 	_putchar('\n');
-	return 0;
+	return (0);
 }
 

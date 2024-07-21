@@ -2,7 +2,7 @@
 /**
  * print_diagonal - produce a diagonal
  * @n: accepts the number of \\
- * Return: Always \ 
+ * Return: Always
  */
 void print_diagonal(int n)
 {
@@ -12,7 +12,8 @@ void print_diagonal(int n)
 	}
 	else
 	{
-		for (int k = 0; k < n; k++) {
+		for (int k = 0; k < n; k++)
+		{
 			_putchar('_');
 		}
 		_putchar('\n');
