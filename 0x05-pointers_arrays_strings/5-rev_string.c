@@ -12,7 +12,7 @@ void rev_string(char *s)
 	int t, y;
 	char placer;
 
-	for (t = 0, y = size -1; t < y; t++-, y--)
+	for (t = 0, y = size -1; t < y; t++, y--)
 	{
 		placer = s[t];
 		s[t] = s[y];

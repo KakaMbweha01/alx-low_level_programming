@@ -1,4 +1,6 @@
 #include "main.h"
+#include <stdio.h>
+#include <string.h>
 /**
  * print_rev - reverse of a string
  * @s: Accepts a string
@@ -6,18 +8,13 @@
  */
 void print_rev(char *s)
 {
-	int size = 0;
-	while (*s != '\0')
-	{
-		size++;
-		s++;
-	}
+	int size = strlen(s);
 	int h;
 
 	for (int h = size - 1; h >= 0; h--)
 	{
-		s--;
-		_putchar(*s);
+		_putchar(s[h]);
 	}
 	_putchar('\n');
 }
+
