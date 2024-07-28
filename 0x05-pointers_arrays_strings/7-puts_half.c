@@ -6,11 +6,11 @@
  * @str: Accepts a string
  * Return: Always 0
  */
+int h;
 void puts_half(char *str)
 {
 	int len = strlen(str);
 	int n = (len - 1) / 2;
-	int h;
 
 	int start_indexer = (len % 2 == 0) ? len / 2 : n + 1;
 
@@ -20,4 +20,5 @@ void puts_half(char *str)
 	}
 	_putchar('\n');
 }
+
 

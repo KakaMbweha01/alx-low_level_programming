@@ -18,10 +18,11 @@ void rev_string(char *s)
 		s[t] = s[y];
 		s[y] = placer;
 	}
-	while (*s != '\0')
+	while (*s)
 	{
 		_putchar(*s);
 		s++;
 	}
-	_putchar('\n');
 }
+
+

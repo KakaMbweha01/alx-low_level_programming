@@ -6,10 +6,10 @@
  * @s: Accepts a string
  * Return: Always 0
  */
+int h;
 void print_rev(char *s)
 {
 	int size = strlen(s);
-	int h;
 
 	for (int h = size - 1; h >= 0; h--)
 	{
@@ -17,4 +17,6 @@ void print_rev(char *s)
 	}
 	_putchar('\n');
 }
+
+
 
