@@ -5,9 +5,11 @@
  */
 void more_numbers(void)
 {
-	for (int g = 0; g < 10; g++)
+	int f, g;
+
+	for (g = 0; g < 10; g++)
 	{
-		for (int f = 0; f < 15; f++)
+		for (f = 0; f < 15; f++)
 		{
 			if (f > 9)
 			{

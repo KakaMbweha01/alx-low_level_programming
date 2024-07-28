@@ -6,7 +6,9 @@
 void print_numbers(void)
 {
 	char numbers[] = "0123456789\n";
-	for (int g = 0; g <= 11; g++)
+	int g;
+
+	for (g = 0; g <= 11; g++)
 	{
 		_putchar(numbers[g]);
 	}

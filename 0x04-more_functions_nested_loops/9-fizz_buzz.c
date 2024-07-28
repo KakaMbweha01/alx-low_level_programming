@@ -6,6 +6,8 @@
  */
 int main(void)
 {
+	int i;
+
 	for (int i = 1; i <= 100; ++i)
 	{
 		if (n % 3 == 0 && n % 5 == 0)
@@ -44,4 +46,5 @@ int main(void)
 	_putchar('\n');
 	return (0);
 }
+
 
