@@ -6,12 +6,16 @@
  * @s: Accepts a string
  * Return: Always 0
  */
-int h;
 void print_rev(char *s)
 {
-	int size = strlen(s);
+	int h;
+	int size = 0;
 
-	for (int h = size - 1; h >= 0; h--)
+	while (s[length] != '\0')
+	{
+		length++;
+	}
+	for (h = size - 1; h >= 0; h--)
 	{
 		_putchar(s[h]);
 	}

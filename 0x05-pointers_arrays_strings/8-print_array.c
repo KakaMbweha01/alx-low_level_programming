@@ -6,10 +6,11 @@
  * @n: acepts an int
  * Return: Always 0
  */
-int j;
 void print_array(int *a, int n)
 {
-	for (int j = 0; j < n; j++)
+	int j;
+
+	for (j = 0; j < n; j++)
 	{
 		printf("%d", a[j]);
 		if (j < n - 1)

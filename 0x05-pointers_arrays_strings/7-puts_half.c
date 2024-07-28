@@ -6,15 +6,15 @@
  * @str: Accepts a string
  * Return: Always 0
  */
-int h;
 void puts_half(char *str)
 {
+	int h;
 	int len = strlen(str);
 	int n = (len - 1) / 2;
 
 	int start_indexer = (len % 2 == 0) ? len / 2 : n + 1;
 
-	for (int h = start_indexer; str[h] != '\0'; h++)
+	for (h = start_indexer; str[h] != '\0'; h++)
 	{
 		_putchar(str[h]);
 	}
