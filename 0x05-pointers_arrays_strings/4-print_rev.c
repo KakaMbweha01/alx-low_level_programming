@@ -11,9 +11,9 @@ void print_rev(char *s)
 	int h;
 	int size = 0;
 
-	while (s[length] != '\0')
+	while (s[size] != '\0')
 	{
-		length++;
+		size++;
 	}
 	for (h = size - 1; h >= 0; h--)
 	{
