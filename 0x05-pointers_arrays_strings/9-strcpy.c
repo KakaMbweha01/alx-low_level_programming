@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * _strcpy - copy a string
  * @dest: copied string
@@ -7,15 +8,13 @@
  */
 char *_strcpy(char *dest, char *src)
 {
-	char *first = dest;
-	while (*src != '\0')
+	int j = 0;
+
+	while (src[j] != '\0')
 	{
-		*dest = *src;
-		_putchar(*dest);
-		dest++;
-		src;
+		dest[j] = src[j];
+		j++;
 	}
-	*dest = '\0';
-	_putchar('\n');
-	return first;
+	dest[j] = '\0';
+	return dest;
 }

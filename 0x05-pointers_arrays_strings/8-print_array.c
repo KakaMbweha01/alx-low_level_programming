@@ -8,15 +8,15 @@
  */
 void print_array(int *a, int n)
 {
+	int j;
+
 	for (int j = 0; j < n; j++)
 	{
-		if (j == n -1)
+		printf("%d", a[j]);
+		if (j < n - 1)
 		{
-			printf("%d\n", a[j]);
-		}
-		else
-		{
-			printf("%d, ," a[j]);
+			printf(", ");
 		}
 	}
+	printf("\n");
 }
