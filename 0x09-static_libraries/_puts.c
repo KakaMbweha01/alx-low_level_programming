@@ -1,6 +1,6 @@
-#include main.h
+#include "main.h"
 
 void _puts(char *s)
 {
-	return(0);
+	return;
 }
